@@ -3,20 +3,30 @@
     height: 200px;
     width: 200px;
 }
-
 header {
-    background-color: navy;
+    background-color: rgb(43, 43, 44);
     color: white;
     text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
     }
 
 
     .cityBox{
-        padding-top: 5%;
+        margin-top: 1%;
+        padding-top: 3%;
         height: 300px;
-        max-width: 98%;
+        width: 700px;
         border-style: solid; 
-        border-color: black;
+        border-color: lightgray;
     }
 
+    .forecastBox{
+        position: relative;
+        height: 200px;
+        width: 700px;
+        border-style: solid; 
+        border-color: lightgray;
+        float: left;
+    }
     
