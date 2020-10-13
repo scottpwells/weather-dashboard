@@ -1,0 +1,22 @@
+#weatherButton {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    }
+
+
+    .cityBox{
+        padding-top: 5%;
+        height: 300px;
+        max-width: 98%;
+        border-style: solid; 
+        border-color: black;
+    }
+
+    
