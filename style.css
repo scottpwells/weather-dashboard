@@ -1,8 +1,4 @@
-#weatherButton {
-    background-color: red;
-    height: 200px;
-    width: 200px;
-}
+
 header {
     background-color: rgb(43, 43, 44);
     color: white;
@@ -21,12 +17,7 @@ header {
         border-color: lightgray;
     }
 
-    .forecastBox{
-        position: relative;
-        height: 200px;
-        width: 700px;
-        border-style: solid; 
-        border-color: lightgray;
-        float: left;
+    aside {
+     float: left;
     }
     
