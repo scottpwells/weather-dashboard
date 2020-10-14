@@ -22,16 +22,19 @@ $(document).ready(function() {
         }).then(function(response){
             console.log(response)
             
-             $("#today").empty;
+            
 
             //build our html right here
             var card = $("<div>").addClass("card");
             var cardBody = $("<div>").addClass("card-body");
             var cardTitle = $("<h3>").addClass("card-title").text(response.name);
             var temp = $("<p>").addClass("card-text").text("Temperature: " + Math.round(response.main.temp) + String.fromCharCode(176));
-            var wind = $
+            var pressure = $("<p>").addClass("card-text").text("pressure: " + Math.round(response.main.pressure))
+            var wind = $("</p>").addClass("card-text").text("wind: " + Math.round(response.wind.speed)); 
+            var humidity = $("<p>").addClass("card-text").text("humidity: " + Math.round(response.main.humidity));
+           
             
-            $("#today").append(card.append(cardBody.append(cardTitle, temp,)))
+            $("#today").append(card.append(cardBody.append(cardTitle, temp, wind, humidity, pressure)))
 
             getForecast(response.coord.lat, response.coord.lon)
         })
