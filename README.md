@@ -37,7 +37,7 @@ https://scottpwells.github.io/weather-dashboard/
 
 Please see screen shot of app below
 
-![weather-dashboard](weather-dashboard-screenshot.PNG)
+![weather-dashboard](./weather-dashboard-screenshot.PNG)
 
 
 
